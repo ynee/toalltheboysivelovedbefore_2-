@@ -1,0 +1,76 @@
+.logo {width: 360px; position: absolute; left: 30px; top: 30px;}
+.box-bottom {width: 700px; position: fixed; left: 608.5px; top: 130px;}
+.explain {width: 450px; position: absolute; left: 400px; top: 930px; }
+
+
+
+@-webkit-keyframes title {
+	from {transform: scale( 1.0, 1.0 ); z-index: 0;}
+	to {transform: scale( 1.5, 1.5 ); z-index: 40;}
+}
+.title {width: 578px; position: fixed; left: 680px; top: 360px;
+animation-name: title; animation-duration: 1s; 
+animation-timing-function: ease-in-out; animation-iteration-count: 1; animation-fill-mode: forwards; animation-delay: 7.5s;
+position: fixed;}
+
+
+
+@-webkit-keyframes letter-blue {
+	from {left: 710px; top: 330px; z-index: 0;}
+	to {left: -30px; top: 400px; z-index:30; }
+}
+.letter-blue {width: 500px; position: absolute; left: 710px; top: 330px;
+animation-name: letter-blue; animation-duration: 1.5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: 1; animation-fill-mode: forwards; animation-delay: 6.5s;}
+
+
+
+@-webkit-keyframes letter-brown {
+	from {left: 710px; top: 325px; z-index: 0;}
+	to {left: 1300px; top: 700px; z-index:20; }
+}
+.letter-brown {width: 500px; position: absolute; left: 710px; top: 325px;
+animation-name: letter-brown; animation-duration: 1.5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: 1; animation-fill-mode: forwards; animation-delay: 6s;}
+
+
+
+@-webkit-keyframes letter-yellow {
+	from {left: 710px; top: 320px; z-index: 0;}
+	to {left: -100px; top: 100px; z-index:10; }
+}
+.letter-yellow {width: 500px; position: absolute; left: 710px; top: 320px;
+animation-name: letter-yellow; animation-duration: 1.5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: 1; animation-fill-mode: forwards; animation-delay: 5.5s;}
+
+
+
+@-webkit-keyframes letter-white {
+	from {left: 705px; top: 330px;}
+	to {left: 1500px; top: 370px; z-index: }
+}
+.letter-white {width: 500px; position: absolute; left: 705px; top: 330px;
+animation-name: letter-white; animation-duration: 1.5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: 1; animation-fill-mode: forwards; animation-delay: 5s;}
+
+
+
+@-webkit-keyframes letter-beige {
+	from {left: 705px; top: 310px;}
+	to {left: -150px; top: 700px;}
+}
+.letter-beige {width: 500px; position: absolute; left: 705px; top: 310px;
+animation-name: letter-beige; animation-duration: 1.5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: 1; animation-fill-mode: forwards; animation-delay: 4.5s;}
+
+
+
+
+
+@-webkit-keyframes box-top {
+	from {left: 600px; top: 130px;}
+	to {left: 1350px; top: -350px;}
+}
+.box-top {width: 700px; position: absolute; left: 600px; top: 130px;
+	animation-name: box-top; animation-duration: 2.5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: 1; animation-fill-mode: forwards; animation-delay: 2s;}
